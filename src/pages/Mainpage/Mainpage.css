@@ -34,7 +34,7 @@ body {
     transition: all 0.3s ease 0s;
   }
   
-  .hero_section .call_to-btn {}
+
   
   .call_to-btn img {
     width: 18px;
@@ -105,7 +105,7 @@ body {
   .top_container::before {
     content: "";
     position: absolute;
-    width: 100%;
+    width: 50%;
     height: 80%;
     background: url(../../images/hero-bg.png);
     background-size: 100% 100%;
@@ -114,22 +114,19 @@ body {
     z-index: -1;
   }
   
-  .sub_page .top_container::before {
-    background-color: #fdd31d;
-    background-image: none;
-  }
+
   
-  .top_container::after {
+  .container-2{
     content: "";
     position: absolute;
-    width: 75px;
-    height: 75px;
-    bottom: 20%;
+    width: 100%;
+    height: 100%;
+    top: 150%;
     left: 6%;
-    background-color: #fdd31d;
+    background-color: blue;
+
   }
-  
-  
+
   .sub_page .top_container::after {
     display: none;
   }
@@ -247,20 +244,27 @@ body {
   
   /* end common style */
 
-  /* admission section */
+
   
   
   .admission_section a {
-    background-color: #fdd31d;
+    background-color: #f6c900;
     color: #fefeff;
   }
   
-  /* end admission section */
-  
  
-
-  
 .shadow1{
     background-color: #071537 ;
     
+}
+.shadow2{
+  text-align: left;
+  background-color: #071537;
+  width: 60%;
+  height: 60%;
+ 
+  position: relative;
+  left: 8%;
+
+
 }
